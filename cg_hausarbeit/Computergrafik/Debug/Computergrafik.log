@@ -1,0 +1,4 @@
+﻿  Model.cpp
+c:\users\jan\desktop\christ\cg_hausarbeit\computergrafik\model.cpp(329): warning C4018: '<': signed/unsigned mismatch
+c:\users\jan\desktop\christ\cg_hausarbeit\computergrafik\model.cpp(547): warning C4715: 'Model::getMtl': not all control paths return a value
+  Computergrafik.vcxproj -> C:\Users\jan\Desktop\christ\cg_hausarbeit\Debug\cg_hausarbeit.exe

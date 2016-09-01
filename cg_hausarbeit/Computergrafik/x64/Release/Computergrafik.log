@@ -1,0 +1,101 @@
+﻿  Camera.cpp
+Camera.cpp(22): warning C4305: 'argument': truncation from 'double' to 'float'
+Camera.cpp(22): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Camera.cpp(30): warning C4305: 'argument': truncation from 'double' to 'float'
+Camera.cpp(30): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+Camera.cpp(126): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  cannon.cpp
+  cannonMgr.cpp
+  collision.cpp
+  color.cpp
+  main.cpp
+main.cpp(100): warning C4305: 'argument': truncation from 'double' to 'float'
+  Material.cpp
+  Matrix.cpp
+Matrix.cpp(59): warning C4305: 'initializing': truncation from 'double' to 'float'
+  Model.cpp
+Model.cpp(153): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+Model.cpp(176): warning C4267: '=': conversion from 'size_t' to 'unsigned int', possible loss of data
+Model.cpp(329): warning C4018: '<': signed/unsigned mismatch
+C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\include\utility(203): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  Model.cpp(113): note: see reference to function template instantiation 'std::pair<int,std::string>::pair<unsigned __int64,const char*,void,0>(std::pair<unsigned __int64,const char *> &&) noexcept(false)' being compiled
+  Model.cpp(113): note: see reference to function template instantiation 'std::pair<int,std::string>::pair<unsigned __int64,const char*,void,0>(std::pair<unsigned __int64,const char *> &&) noexcept(false)' being compiled
+  PlaneModel.cpp
+  rgbimage.cpp
+rgbimage.cpp(59): warning C4838: conversion from 'unsigned int' to 'LONG' requires a narrowing conversion
+rgbimage.cpp(70): warning C4838: conversion from 'unsigned char' to 'char' requires a narrowing conversion
+rgbimage.cpp(106): warning C4244: 'return': conversion from 'float' to 'unsigned char', possible loss of data
+  scene.cpp
+  scenenode.cpp
+  shaderCompiler.cpp
+shaderCompiler.cpp(18): warning C4101: 'found': unreferenced local variable
+  shaderprogram.cpp
+  tank.cpp
+tank.cpp(131): warning C4305: 'argument': truncation from 'double' to 'float'
+tank.cpp(145): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+tank.cpp(146): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  Tankmanager.cpp
+Tankmanager.cpp(93): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Tankmanager.cpp(101): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+Tankmanager.cpp(121): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+Tankmanager.cpp(126): warning C4018: '<': signed/unsigned mismatch
+Tankmanager.cpp(147): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+Tankmanager.cpp(156): warning C4018: '<': signed/unsigned mismatch
+Tankmanager.cpp(173): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+Tankmanager.cpp(179): warning C4018: '<': signed/unsigned mismatch
+Tankmanager.cpp(190): warning C4018: '<': signed/unsigned mismatch
+Tankmanager.cpp(193): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+Tankmanager.cpp(209): warning C4018: '<': signed/unsigned mismatch
+Tankmanager.cpp(243): warning C4018: '<=': signed/unsigned mismatch
+Tankmanager.cpp(245): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Tankmanager.cpp(246): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Tankmanager.cpp(253): warning C4018: '<=': signed/unsigned mismatch
+Tankmanager.cpp(255): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+Tankmanager.cpp(256): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  Tankwave.cpp
+  terrain.cpp
+terrain.cpp(118): warning C4018: '<': signed/unsigned mismatch
+terrain.cpp(119): warning C4018: '<': signed/unsigned mismatch
+  Texture.cpp
+  Compiling...
+  vector.cpp
+main.obj : error LNK2001: unresolved external symbol __imp_glutPassiveMotionFunc
+main.obj : error LNK2001: unresolved external symbol __imp___glutCreateWindowWithExit
+main.obj : error LNK2001: unresolved external symbol __imp_glutMouseFunc
+main.obj : error LNK2001: unresolved external symbol __imp___glutInitWithExit
+main.obj : error LNK2001: unresolved external symbol __imp_glutPostRedisplay
+main.obj : error LNK2001: unresolved external symbol __imp_glutKeyboardFunc
+main.obj : error LNK2001: unresolved external symbol __imp_glutInitDisplayMode
+main.obj : error LNK2001: unresolved external symbol __imp_glutSpecialFunc
+main.obj : error LNK2001: unresolved external symbol __imp_glutSpecialUpFunc
+main.obj : error LNK2001: unresolved external symbol __imp_glutDisplayFunc
+main.obj : error LNK2001: unresolved external symbol __imp_glutMainLoop
+main.obj : error LNK2001: unresolved external symbol __imp_glutMotionFunc
+main.obj : error LNK2001: unresolved external symbol __imp_glutGet
+main.obj : error LNK2001: unresolved external symbol __imp_glutInitWindowSize
+main.obj : error LNK2001: unresolved external symbol __imp_glewInit
+main.obj : error LNK2001: unresolved external symbol __imp_glutSwapBuffers
+Model.obj : error LNK2001: unresolved external symbol __imp___glewBindBuffer
+Model.obj : error LNK2001: unresolved external symbol __imp___glewClientActiveTexture
+Model.obj : error LNK2001: unresolved external symbol __imp___glewUniform1i
+Model.obj : error LNK2001: unresolved external symbol __imp___glewUniform1f
+Model.obj : error LNK2001: unresolved external symbol __imp___glewBufferData
+Model.obj : error LNK2001: unresolved external symbol __imp___glewActiveTexture
+Model.obj : error LNK2001: unresolved external symbol __imp___glewGenBuffers
+Model.obj : error LNK2001: unresolved external symbol __imp___glewUniform3f
+Model.obj : error LNK2001: unresolved external symbol __imp___glewDeleteBuffers
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewUseProgram
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderiv
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewCompileShader
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewCreateShader
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewCreateProgram
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewGetShaderInfoLog
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewGetProgramiv
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewGetUniformLocation
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewAttachShader
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewShaderSource
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewUniformMatrix4fv
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewDeleteShader
+shaderprogram.obj : error LNK2001: unresolved external symbol __imp___glewLinkProgram
+Texture.obj : error LNK2001: unresolved external symbol __imp___glewGenerateMipmap
+C:\Users\jan\Desktop\christ\cg_hausarbeit\x64\Release\cg_hausarbeit.exe : fatal error LNK1120: 39 unresolved externals

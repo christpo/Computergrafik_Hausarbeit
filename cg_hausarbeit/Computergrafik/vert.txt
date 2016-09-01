@@ -1,0 +1,7 @@
+varying vec4 pcolor; varying vec4 pcolor;
+
+void main(){
+
+	gl_Position = position;
+	pcolor = color;
+}

@@ -1,0 +1,5 @@
+varying vec4 pcolor;
+
+void main(){
+	gl FragColor gl_FragColor = pcolor;
+} 
